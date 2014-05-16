@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Zip5::VERSION
   spec.authors       = ["Seamus Abshere"]
   spec.email         = ["seamus@abshere.net"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Convert United States zip codes to their correct Zip5 representation, even if they're missing a leading zero and/or they have the +4 suffix.}
+  spec.description   = %q{For example, 8840 means 08840 and 5011234 means 00501-1234.}
+  spec.homepage      = "https://github.com/seamusabshere/zip5"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
